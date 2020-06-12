@@ -66,6 +66,18 @@ Have you ever wanted to speak to a Robot? Well today's your lucky day! As you pr
 
 ## Known Bugs
 
+#### Not Yet Resolved
+* Reverse-output does not disappear when user enters new input
+
+#### Resolved
+
+
+## User Interface, To Resolve
+
+#### Not Yet Resolved
+* Rows do not resize when viewport becomes smaller
+
+#### Resolved
 * Issues with alignment of image and other divs with using grid-column and grid-row (resolved by removing img from html and adding as background with css)
 
 ## Support and contact details
