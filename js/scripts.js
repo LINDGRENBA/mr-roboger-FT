@@ -2,9 +2,16 @@
 let translateToRobot = function(initialNumber) {
   let numbers = [];
   for(let i = 0; i <= initialNumber; i++) {
-    numbers.push(i);
+    numbers.push(i.toString());
   }
-  return numbers;
+  
+  const robotResponse = numbers.map(function(number) {
+    if(number.includes("1")) {
+      return "Beep!";
+    } else {
+      return number;
+    }
+  });
 }
 
 
