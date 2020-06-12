@@ -44,11 +44,11 @@ Have you ever wanted to speak to a Robot? Well now you can! As you know, Robots 
 * Input: 1, 11, 13
 * Output: "Beep!", "Beep!", "Beep!"
 
-#### Behavior: If the number contains a 2, all digits will be replaced with "Boop!"
+#### Behavior: If the number contains a 2, all digits will be replaced with "Boop!". 2 will take precedence over 1.
 * Input: 2, 21
 * Output: "Boop!", "Boop!"
 
-#### Behavior: If the number contains a 3, all digits will be replaced with "Won't you be my neighbor?"
+#### Behavior: If the number contains a 3, all digits will be replaced with "Won't you be my neighbor?". 3 will take precedence over 2.
 * Input: 13, 32
 * Output: "Won't you be my neighbor?", "Won't you be my neighbor?"
 
