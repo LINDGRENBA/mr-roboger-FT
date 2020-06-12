@@ -76,6 +76,8 @@ Have you ever wanted to speak to a Robot? Well today's your lucky day! As you pr
 
 #### Not Yet Resolved
 * Rows do not resize when viewport becomes smaller
+* When user selects 'Reverse The Order!' button, div showing user number displays NaN
+* When user enters new number, .highlight class remains on output-reverse, does not return to output
 
 #### Resolved
 * Issues with alignment of image and other divs with using grid-column and grid-row (resolved by removing img from html and adding as background with css)
