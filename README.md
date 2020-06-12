@@ -66,7 +66,7 @@ Have you ever wanted to speak to a Robot? Well today's your lucky day! As you pr
 
 ## Known Bugs
 
-* There are no known bugs at this time.
+* Issues with alignment of image and other divs with using grid-column and grid-row
 
 ## Support and contact details
 
