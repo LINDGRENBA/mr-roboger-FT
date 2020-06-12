@@ -11,7 +11,31 @@ body {
 .grid-container {
   display: grid; /*makes all direct children grid items*/
   grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: minmax(300px, auto);
+  grid-auto-rows: minmax(200px, auto);
+}
+
+header {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.form-div {
+  grid-column-start: 2;
+  grid-column-end: 3; 
+}
+
+#output {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+#output-reverse {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
 
 * {
@@ -29,6 +53,9 @@ define length/width of track - 1fr 1fr 1fr or 2fr 1fr 1fr or repeat(3, 1fr)
 grid track = space between lines
 set minimum size, but allow grid to grow to fit content - minmax(), 
   ex: grid-auto-rows: minmax(100px, auto);
+place on specific grid lines with grid-column-start/grid-column/end & grid-row-start/grid-row-end
+grid-cell = smallest unit on a grid
+create gutters or alleys with column-gap, row-gap or shorthand 'gap'
 
 
 */
