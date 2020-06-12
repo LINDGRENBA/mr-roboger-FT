@@ -66,7 +66,7 @@ Have you ever wanted to speak to a Robot? Well today's your lucky day! As you pr
 
 ## Known Bugs
 
-* Issues with alignment of image and other divs with using grid-column and grid-row
+* Issues with alignment of image and other divs with using grid-column and grid-row (resolved by removing img from html and adding as background with css)
 
 ## Support and contact details
 
