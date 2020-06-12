@@ -26,3 +26,13 @@ program name
 detailed setup instructions
 description
 copyright and license information
+
+Additional Features
+
+images, styling, custom animations
+
+different behaviors/effects/images for different inputs
+
+return output in reversed order
+
+add form field that takes in a name, for numbers divisible by 3, add user name to output

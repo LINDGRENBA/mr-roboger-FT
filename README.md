@@ -52,6 +52,14 @@ Have you ever wanted to speak to a Robot? Well now you can! As you know, Robots 
 * Input: 13, 32
 * Output: "Won't you be my neighbor?", "Won't you be my neighbor?"
 
+#### Behavior: Program will reverse order of output from highest number to 0.
+* Input: 5
+* Output: 5, 4, "Won't you be my neighbor?", "Boop!", "Beep!", 0
+
+#### Behavior: Program will add user name to "Won't you be my neighbor?"
+* Input: Beatrice + 3
+* Output: "Won't you be my neighbor, Beatrice?
+
 ## Known Bugs
 
 * There are no known bugs at this time.
