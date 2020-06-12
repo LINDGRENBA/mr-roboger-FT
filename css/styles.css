@@ -5,15 +5,14 @@ body {
   padding: 20px;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
-  background-color: plum;
-}
-
-#output, #output-reverse {
-  margin-top: 50px;
+  background-image: url(../img/little-toy-robots.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .grid-container {
-  display: grid; /*makes all direct children grid items*/
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: minmax(200px, auto);
   grid-gap: 1em;
@@ -32,10 +31,6 @@ header {
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 2;
-  background-image: url(../img/little-toy-robots.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .form-div {
@@ -66,19 +61,21 @@ footer {
   padding-top: 30px;
 }
 
+header, form, #output, #output-reverse, footer {
+  background: rgba(255, 255, 255, .8);
+  box-shadow: 0 15px 20px rgba(0, 0, 0, .5);
+  padding: 50px;
+  margin-top: 50px;5
+  border-radius: 3px;
+}
 
-/*
-flexible grid sizes = fr
-placement - target line numbers, names or an area of the grid
-alignment - 
-overlapping can b achieved with z-index
-define rows and columns with grid-template-row, grid-template column
-define length/width of track - 1fr 1fr 1fr or 2fr 1fr 1fr or repeat(3, 1fr)
-grid track = space between lines
-set minimum size, but allow grid to grow to fit content - minmax(), 
-  ex: grid-auto-rows: minmax(100px, auto);
-place on specific grid lines with grid-column-start/grid-column/end & grid-row-start/grid-row-end
-grid-cell = smallest unit on a grid
-create gutters or alleys with column-gap, row-gap or shorthand 'gap'
-higher z-index means it will appear "on top"
-*/
+#output:hover, form:hover, #output-reverse:hover {
+  transform: scale(1.1);
+  opacity: 1;
+  box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+}
+
+
+
+
