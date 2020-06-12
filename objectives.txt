@@ -1,7 +1,0 @@
-
-Required functionality is in place by Friday deadline.
-
-Project is in a presentable, portfolio-quality state.
-
-Commits are made regularly with clear messages that finish the phrase "It will…".
-
