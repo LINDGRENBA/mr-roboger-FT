@@ -6,7 +6,9 @@ let translateToRobot = function(initialNumber) {
   }
   
   const robotResponse = numbers.map(function(number) {
-    if(number.includes("1")) {
+    if(number.includes("2")) {
+      return "Boop!";
+    } else if(number.includes("1")) {
       return "Beep!";
     } else {
       return number;
