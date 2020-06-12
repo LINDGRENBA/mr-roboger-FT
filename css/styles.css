@@ -9,5 +9,26 @@ body {
 }
 
 .grid-container {
-  display: grid;
+  display: grid; /*makes all direct children grid items*/
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(300px, auto);
 }
+
+* {
+  border: 1px solid pink;
+}
+
+
+/*
+flexible grid sizes = fr
+placement - target line numbers, names or an area of the grid
+alignment - 
+overlapping can b achieved with z-index
+define rows and columns with grid-template-row, grid-template column
+define length/width of track - 1fr 1fr 1fr or 2fr 1fr 1fr or repeat(3, 1fr)
+grid track = space between lines
+set minimum size, but allow grid to grow to fit content - minmax(), 
+  ex: grid-auto-rows: minmax(100px, auto);
+
+
+*/

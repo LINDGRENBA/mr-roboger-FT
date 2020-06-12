@@ -6,7 +6,7 @@
 
 ## Description
 
-Have you ever wanted to speak to a Robot? Well now you can! As you know, Robots speak in beeps, boops and numbers. Enter a number into the form, submit it, and see how the robot responds. 
+Have you ever wanted to speak to a Robot? Well today's your lucky day! As you probably know, Robots speak in beeps, boops and numbers. Enter a number into the form, submit it, and see how the robot responds. 
 
 ## Setup/Installation Requirements
 
