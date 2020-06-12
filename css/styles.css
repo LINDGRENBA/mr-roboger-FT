@@ -6,6 +6,6 @@ body {
 
 
 
-#output {
+#output, #output-reverse {
   margin-top: 50px;
 }

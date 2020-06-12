@@ -16,7 +16,7 @@ let translateToRobot = function(initialNumber) {
       return number;
     }
   });
-  return robotResponse.join(" ");
+  return [robotResponse.join(" "), robotResponse.reverse().join(" ")];
 }
 
 
@@ -30,7 +30,11 @@ $(document).ready(function() {
     let userNumberInput = parseInt($("#number-input").val());
     let result = translateToRobot(userNumberInput);
     $("#number-input").val("");
-    $("#output").text(result);
+    $("#output").text(result[0]);
+
+    $("#reverse-btn").click(function() {
+      $("#output-reverse").text(result[1]);
+    });
 
   });
 });
