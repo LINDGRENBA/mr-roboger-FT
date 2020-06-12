@@ -58,7 +58,11 @@ Have you ever wanted to speak to a Robot? Well now you can! As you know, Robots 
 
 #### Behavior: Program will add user name to "Won't you be my neighbor?"
 * Input: Beatrice + 3
-* Output: "Won't you be my neighbor, Beatrice?
+* Output: 0, "Beep!", "Boop!", "Won't you be my neighbor, Beatrice?
+
+#### Behavior: Program will add user name to "Won't you be my neighbor?" only if number is divisible by 3, with exception of 0.
+* Input: Beatrice + 13
+* Output: 0, "Beep!", "Boop!", "Won't you be my neighbor, Beatrice?", 4, 5, "Won't you be my neighbor, Beatrice?" .... "Won't you be my neighbor?"
 
 ## Known Bugs
 
