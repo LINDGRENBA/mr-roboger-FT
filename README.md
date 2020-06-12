@@ -36,21 +36,21 @@ Have you ever wanted to speak to a Robot? Well now you can! As you know, Robots 
 
 ## Specifications
 
-#### Behavior: 
-* Input:
-* Output:
+#### Behavior: The program will take in a number and return a range of numbers from 0 to that number.
+* Input: 5
+* Output: 0, 1, 2, 3, 4, 5
 
-#### Behavior: 
-* Input:
-* Output:
+#### Behavior: If the number contains a 1, all digits will be replaced with "Beep!"
+* Input: 1, 11, 13
+* Output: "Beep!", "Beep!", "Beep!"
 
-#### Behavior: 
-* Input:
-* Output:
+#### Behavior: If the number contains a 2, all digits will be replaced with "Boop!"
+* Input: 2, 21
+* Output: "Boop!", "Boop!"
 
-#### Behavior: 
-* Input:
-* Output:
+#### Behavior: If the number contains a 3, all digits will be replaced with "Won't you be my neighbor?"
+* Input: 13, 32
+* Output: "Won't you be my neighbor?", "Won't you be my neighbor?"
 
 ## Known Bugs
 

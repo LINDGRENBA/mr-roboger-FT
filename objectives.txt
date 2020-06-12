@@ -1,0 +1,28 @@
+JavaScript business logic and user interface logic are separate.
+
+Logic is broken down into "plain English" specs, listed in README.
+
+Application implements a loop and works as expected.
+
+The user can use the app repeatedly and see new results.
+
+All previous objectives have been met.
+
+Required functionality is in place by Friday deadline.
+
+Project demonstrates understanding of this week's concepts. If prompted, you are able to discuss your code with an instructor using correct terminology.
+
+Project is in a presentable, portfolio-quality state.
+
+Code is clean, well-refactored, and easy-to-read. This includes correct indentation, spacing, and including only necessary comments and debugging tools.
+
+Variable names are descriptive and use lower camel case (e.g. myVariableExample).
+
+Commits are made regularly with clear messages that finish the phrase "It will…".
+
+Project README that includes, bare minimum:
+author name
+program name
+detailed setup instructions
+description
+copyright and license information
