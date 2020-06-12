@@ -1,6 +1,10 @@
 //business logic
 let translateToRobot = function(initialNumber) {
-  return initialNumber;
+  let numbers = [];
+  for(let i = 0; i <= initialNumber; i++) {
+    numbers.push(i);
+  }
+  return numbers;
 }
 
 
