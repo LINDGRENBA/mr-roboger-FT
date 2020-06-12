@@ -16,6 +16,7 @@ let translateToRobot = function(initialNumber) {
       return number;
     }
   });
+  return robotResponse.join(" ");
 }
 
 
@@ -28,6 +29,7 @@ $(document).ready(function() {
 
     let userNumberInput = parseInt($("#number-input").val());
     let result = translateToRobot(userNumberInput);
+    $("#number-input").val("");
     $("#output").text(result);
 
   });
