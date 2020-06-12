@@ -62,29 +62,35 @@ footer {
 }
 
 header, form, #output, #output-reverse, footer {
-  background: rgba(255, 255, 255, .8);
+  background: rgba(255, 255, 255, .9);
   box-shadow: 0 15px 20px rgba(0, 0, 0, .5);
   padding: 50px;
   margin-top: 50px;
   border-radius: 3px;
 }
 
-button {
+.btn {
   margin: 5px;
+  background-color: rosybrown;
+  color: #FFF;
 }
 
 #output, #output-reverse {
-  position: relative;
   transition: all 0.6s ease;
 }
 
 #output:hover, #output-reverse:hover {
   transform: scale(1.1);
-  opacity: 1;
   box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.3);
   z-index: 2;
 }
 
+.highlight {
+  background-color: rgba(188, 143, 143, .9);
+  border-radius: 5px;
+  padding: 10px;
+  transition: all 0.6s ease;
+}
 
 
 

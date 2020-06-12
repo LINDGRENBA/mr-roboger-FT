@@ -5,8 +5,3 @@ Project is in a presentable, portfolio-quality state.
 
 Commits are made regularly with clear messages that finish the phrase "It will…".
 
-Additional Features
-
-images, styling, custom animations
-
-different behaviors/effects/images for different inputs

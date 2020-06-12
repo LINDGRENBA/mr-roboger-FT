@@ -36,10 +36,16 @@ $(document).ready(function() {
     let userNumberInput = parseInt($("#number-input").val());
     let result = translateToRobot(userNumberInput, userFirstName);
     $("#number-input").val("");
-    $("#output").text(result[0]);
+    $("#user-name").val("");
+    $("#output-text").text(result[0]);
+    $(".output-background2").removeClass();
+    $(".output-background1").addClass("highlight");
+
 
     $("#reverse-btn").click(function() {
-      $("#output-reverse").text(result[1]);
+      $(".output-background1").removeClass();
+      $(".output-background2").addClass("highlight");
+      $("#output-reverse-text").text(result[1]);
     });
 
   });
