@@ -70,7 +70,7 @@ Have you ever wanted to speak to a Robot? Well today's your lucky day! As you pr
 * Reverse-output does not disappear when user enters new input
 
 #### Resolved
-
+* N/A
 
 ## User Interface, To Resolve
 
