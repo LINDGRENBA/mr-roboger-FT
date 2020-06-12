@@ -5,6 +5,7 @@ body {
   padding: 20px;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  background-color: plum;
 }
 
 #output, #output-reverse {
@@ -19,8 +20,6 @@ body {
 }
 
 .grid-container > div, header, footer {
-  background-size: cover;
-  background-attachment: fixed;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,6 +32,10 @@ header {
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 2;
+  background-image: url(../img/little-toy-robots.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .form-div {
@@ -59,12 +62,8 @@ header {
 }
 
 footer {
+  margin-top: 1em;
   padding-top: 30px;
-}
-
-
-* {
-  border: 1px solid pink;
 }
 
 
