@@ -6,19 +6,20 @@ let translateToRobot = function(initialNumber, userName) {
   }
   
   const robotResponse = numbers.map(function(number) {
-    if(number.includes("3")) {
-      if(userName) {
-        return "Won't you be my neighbor, " + userName + "?"
-      } else {
-        return "Won't you be my neighbor?";
-      }
-    } else if(number.includes("2")) {
-      return "Boop!";
-    } else if(number.includes("1")) {
-      return "Beep!";
+    let numberForComparison = parseInt(number);
+    if(userName && numberForComparison > 0 && numberForComparison % 3 === 0) {
+      return "Won't you be my neighbor, " + userName + "?";
     } else {
-      return number;
-    }
+      if(number.includes("3")) {
+        return "Won't you be my neighbor?";
+      } else if(number.includes("2")) {
+        return "Boop!";
+      } else if(number.includes("1")) {
+        return "Beep!";
+      } else {
+        return number;
+      }
+    }   
   });
   return [robotResponse.join(" "), robotResponse.reverse().join(" ")];
 }
