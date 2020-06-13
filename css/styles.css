@@ -65,6 +65,17 @@ header {
 footer {
   margin-top: 1em;
   padding-top: 30px;
+  position: relative;
+}
+
+.red-robot {
+  width: auto;
+  height: 100px;
+  border: 3px solid rgba(188, 143, 143, .8);;
+  border-radius: 10px;
+  position: absolute;
+  right: 50px;
+  opacity: 0.9;
 }
 
 header, form, #output, #output-reverse, footer {
