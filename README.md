@@ -74,7 +74,7 @@ Have you ever wanted to speak to a Robot? Well today's your lucky day! As you pr
 
 ## User Interface, To Resolve
 
-#### Not Yet Resolved
+#### Not Yet Resolved (on Styling Branch)
 * Rows do not resize when viewport becomes smaller
 * When user selects 'Reverse The Order!' button, div showing user number displays NaN
 * When user enters new number, .highlight class remains on output-reverse, does not return to output

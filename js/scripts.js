@@ -37,17 +37,11 @@ $(document).ready(function() {
     let result = translateToRobot(userNumberInput, userFirstName);
     $("#number-input").val("");
     $("#user-name").val("");
-    $(".show-user-num").show();
-    $(".show-user-num > p.number-here").text(userNumberInput);
     $("#output-text").text(result[0]);
-    $(".output-background1").addClass("highlight");
 
     $("#reverse-btn").click(function() {
-      $(".output-background1").removeClass();
-      $(".output-background2").addClass("highlight");
-      $(".show-user-num > p.number-here").text("");
       $("#output-reverse-text").text(result[1]);
     });
-
+    
   });
 });
