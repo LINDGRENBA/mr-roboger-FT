@@ -71,6 +71,7 @@ Have you ever wanted to speak to a Robot? Well today's your lucky day! As you pr
 
 #### Resolved
 * Reverse-output does not disappear when user enters new input (Resolved: added button in output-reverse div that allows user to clear text)
+* If user clicks reverse-button before submit number button, program shows result in output div (Resolved: moved reverse button to output div, show after initial form is submitted, hide after reverse-button is clicked)
 
 ## User Interface, To Resolve
 

@@ -38,10 +38,13 @@ $(document).ready(function() {
     $("#number-input").val("");
     $("#user-name").val("");
     $("#output-text").text(result[0]);
+    $("button#reverse-btn").show();
 
     $("#reverse-btn").click(function() {
+      $("#output-text").text("");
       $("#output-reverse-text").text(result[1]);
       $("button.clear-reversed").show();
+      $("button#reverse-btn").hide();
     });
     
   });

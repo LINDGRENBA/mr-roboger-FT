@@ -62,7 +62,7 @@ header {
   grid-row-end: 3;
 }
 
-button.clear-reversed {
+button.clear-reversed, #reverse-btn {
   display: none;
 }
 
