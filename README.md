@@ -6,7 +6,7 @@
 
 ## Description
 
-Have you ever wanted to speak to a Robot? Well today's your lucky day! As you probably know, Robots speak in beeps, boops and numbers. Enter a number into the form, submit it, and see how the robot responds. 
+Have you ever wanted to speak to a Robot? Well today's your lucky day! As you probably know, Robots speak in beeps, boops and numbers. Enter a number into the form, submit it, and see how the robot responds. Click on the link to [see this project in your browser](https://lindgrenba.github.io/mr-roboger-FT/).
 
 ## Setup/Installation Requirements
 
