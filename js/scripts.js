@@ -41,7 +41,12 @@ $(document).ready(function() {
 
     $("#reverse-btn").click(function() {
       $("#output-reverse-text").text(result[1]);
+      $("button.clear-reversed").show();
     });
     
+  });
+
+  $(".clear-reversed").click(function() {
+    $("#output-reverse-text").text("");
   });
 });

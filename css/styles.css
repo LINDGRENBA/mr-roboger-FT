@@ -62,6 +62,10 @@ header {
   grid-row-end: 3;
 }
 
+button.clear-reversed {
+  display: none;
+}
+
 footer {
   margin-top: 1em;
   padding-top: 30px;
