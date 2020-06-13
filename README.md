@@ -67,10 +67,10 @@ Have you ever wanted to speak to a Robot? Well today's your lucky day! As you pr
 ## Known Bugs
 
 #### Not Yet Resolved
-* Reverse-output does not disappear when user enters new input
+* There are no known bugs at this time
 
 #### Resolved
-* N/A
+* Reverse-output does not disappear when user enters new input (Resolved: added button in output-reverse div that allows user to clear text)
 
 ## User Interface, To Resolve
 
